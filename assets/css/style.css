@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+}
+
+
+.hero-section {
+    background-image: url('../img/banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+
+.overlay {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10cap;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.meet-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.meet-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.meet-section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.meet-section .btn {
+    background-color: black;
+    color: white;
+
+}
+
+.meet-section .btn:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.image-container {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; 
+    align-items: center;              
+    background-color: #2A2E31;
+    padding: 1% 0 1%;
+
+}
